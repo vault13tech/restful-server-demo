@@ -2,10 +2,19 @@
   "name": "restful-server-demo",
   "version": "1.0.0",
   "description": "restful api demo project",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vault13tech/restful-server-demo.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "http": "0.0.0",
+    "router": "^1.1.4"
+  }
 }
